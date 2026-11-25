@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {"has_honeycomb":{"conditions":{"items":[{"items":"minecraft:honeycomb"}]},"trigger":"minecraft:inventory_changed"},"has_copper_furnace":{"conditions":{"items":[{"items":"copperfurnace:copper_furnace"}]},"trigger":"minecraft:inventory_changed"},"has_exposed_copper_furnace":{"conditions":{"items":[{"items":"copperfurnace:exposed_copper_furnace"}]},"trigger":"minecraft:inventory_changed"},"has_weathered_copper_furnace":{"conditions":{"items":[{"items":"copperfurnace:weathered_copper_furnace"}]},"trigger":"minecraft:inventory_changed"},"has_oxidized_copper_furnace":{"conditions":{"items":[{"items":"copperfurnace:oxidized_copper_furnace"}]},"trigger":"minecraft:inventory_changed"},"has_the_recipe":{"conditions":{"recipes":"copperfurnace:waxed_copper_furnace_from_honeycomb"},"trigger":"minecraft:recipe_unlocked"}},
+  "requirements": [["has_the_recipe","has_honeycomb","has_copper_furnace","has_exposed_copper_furnace","has_weathered_copper_furnace","has_oxidized_copper_furnace"]],
+  "rewards": {"recipes": ["copperfurnace:waxed_copper_furnace_from_honeycomb","copperfurnace:waxed_exposed_copper_furnace_from_honeycomb","copperfurnace:waxed_weathered_copper_furnace_from_honeycomb","copperfurnace:waxed_oxidized_copper_furnace_from_honeycomb"]}
+}

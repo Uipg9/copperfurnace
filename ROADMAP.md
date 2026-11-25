@@ -1,6 +1,7 @@
 # Copper Furnace roadmap
 
 ## Done
+- 1.0.1: recipe unlock advancement so the recipe shows in the recipe book (unit test guards every recipe). Honeycomb waxing recipes for all 4 stages.
 - 8 blocks (4 stages x waxed/unwaxed), one shared block entity type, BlockItems, creative tab
   (Functional Blocks, after the vanilla furnace), lang, blockstates/models (vanilla `orientable`, lit
   variant), loot tables (drops itself), `mineable/pickaxe` tag, recipe (furnace + 8 copper ingots).
