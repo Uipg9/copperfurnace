@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "copperfurnace",
+	"version": "${version}",
+	"name": "Copper Furnace",
+	"description": "A copper furnace that smelts faster while it is shiny and slows to vanilla speed as it oxidizes. Wax it to keep the speed.",
+	"authors": [
+		"Uipg9"
+	],
+	"contact": {
+		"homepage": "https://github.com/Uipg9/copperfurnace",
+		"sources": "https://github.com/Uipg9/copperfurnace"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/copperfurnace/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.brian.copperfurnace.Copperfurnace"
+		],
+		"fabric-client-gametest": [
+			"dev.brian.copperfurnace.client.CopperfurnaceClientGameTest"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

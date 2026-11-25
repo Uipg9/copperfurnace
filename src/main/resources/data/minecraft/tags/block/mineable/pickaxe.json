@@ -1,0 +1,12 @@
+{
+  "values": [
+    "copperfurnace:copper_furnace",
+    "copperfurnace:waxed_copper_furnace",
+    "copperfurnace:exposed_copper_furnace",
+    "copperfurnace:waxed_exposed_copper_furnace",
+    "copperfurnace:weathered_copper_furnace",
+    "copperfurnace:waxed_weathered_copper_furnace",
+    "copperfurnace:oxidized_copper_furnace",
+    "copperfurnace:waxed_oxidized_copper_furnace"
+  ]
+}
