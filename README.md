@@ -1,3 +1,5 @@
+<p align="center"><img src="src/main/resources/assets/copperfurnace/icon.png" width="128" alt="icon"></p>
+
 # Copper Furnace
 
 A furnace made of copper that smelts faster while it is shiny. Like other copper blocks it oxidizes over
