@@ -55,6 +55,12 @@ public class CopperFurnaceBlock extends FurnaceBlock implements WeatheringCopper
 		}
 	}
 
+	/** Weathering, scraping and waxing swap the block; keep the block entity (items, progress) across them. */
+	@Override
+	protected boolean shouldChangedStateKeepBlockEntity(BlockState newState) {
+		return newState.getBlock() instanceof CopperFurnaceBlock;
+	}
+
 	@Override
 	public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
 		return new CopperFurnaceBlockEntity(pos, state);
